@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppings", sans-serif;
+}
+
+body {
+    background-color: #011100;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+canvas {
+    background-color: #111;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: cursive;
+
+}
+
+.score--value {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: red;
+    font-family: cursive;
+}
+
+.final-score {
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: rgb(255, 81, 81);
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 15px 25px 15px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ff0000;
+    background-color: rgb(34, 34, 34);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+
